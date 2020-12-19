@@ -1,0 +1,16 @@
+[package]
+name = "waste"
+version = "0.1.0"
+authors = ["Mikko Rantanen <jubjub@jubjubnest.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "0.6"
+anyhow = "1"
+byteorder = "1"
+num-traits = "0.2"
+num-derive = "0.3"
+widestring = "0.4"
+clap = "2"
